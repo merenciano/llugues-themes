@@ -1,0 +1,31 @@
+{
+  "name": "llugues-themes",
+  "displayName": "Llugues Themes",
+  "description": "Collection of C and C++ themes for programmers that spend hours reading source code.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Llugues Salmon Talc",
+        "uiTheme": "vs-dark",
+        "path": "./themes/salmon-talc-color-theme.json"
+      },
+      {
+        "label": "Llugues Pink Moon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pink-moon-color-theme.json"
+      },
+      {
+        "label": "Llugues Ice Cream",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ice-cream-color-theme.json"
+      }
+    ]
+  }
+}
